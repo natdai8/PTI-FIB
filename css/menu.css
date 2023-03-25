@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+} 
+
+.centrar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color {
+    background-color: rgb(118, 116, 213);
+}
+
+.font {
+    font-size: 14px;
+}
+
+.boton-hover:hover {
+    background-color: rgb(101, 98, 232);
+}

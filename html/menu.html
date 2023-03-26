@@ -19,23 +19,23 @@
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </button> -->
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav px-3">
                             <li class="nav-item active">
                                 <a class="nav-link text-white" href="#"><b>¿Qué hacemos?</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="backup.html">Hacer un backup</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="listBackups.html">Ver mis backups</a>
+                                <a class="nav-link text-white" href="listBackups.html">Mis backups</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="rmBackups.html">Borrar un backup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="backup.html">Gráfica</a>
                             </li>
                         </ul>
                     </div>
@@ -44,12 +44,29 @@
             </nav> 
         </header>
     </navbar>                                                          
-    <body class="">                                      
-        <main class="">
-            <div class="">
-                
+    <body>                                      
+        <main class="row mx-0 centrar">
+            <div class="col-xs-4 col-md-8">
+                <div class="col-xs-11 pt-5 mt-3 px-2 text-description">
+                    <h2> ¿Qué hacemos?</h2>
+                    <br>
+                    <p class="">
+                        Back2Up se basa en crear un sistema de backups remoto con máquinas virtuales montado sobre Proxmox.
+                        A través de esta página web, con los credenciales o licencia de cada empresa, se podrá acceder para consultar 
+                        la lista de backups que se han hecho previamente, y hacer más backups si el cliente lo requiere. Podrá 
+                        decidir qué ficheros guardar copias y si quiere una imagen del equipo.
+                    </p>
+                    <p>
+                        Opcionalmente se está intentando implementar un método automático para poder levantar las máquinas a partir de las 
+                        imágenes transferidas y que los usuarios puedan acceder a ellas en remoto (Disaster Recovery). 
+                    </p>
+                </div>
+                <div>
+                    <img class="mw-100" src="../img/img2.png">
+                </div>
             </div>
         </main>
+
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

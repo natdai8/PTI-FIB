@@ -20,3 +20,9 @@ body {
 .boton-hover:hover {
     background-color: rgb(101, 98, 232);
 }
+
+.text-description {
+    color: var(--bs-heading-color);
+    font-size: 1.25rem;
+    text-align: justify;
+}
